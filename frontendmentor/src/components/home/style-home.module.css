@@ -1,0 +1,28 @@
+.container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.liste {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    margin: 10px 0;
+}
+
+.link {
+    text-decoration: none;
+    color: hsl(218, 44%, 22%);
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #5a75f0;
+}
