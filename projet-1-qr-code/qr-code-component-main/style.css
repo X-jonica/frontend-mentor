@@ -1,64 +1,68 @@
-*, ::before, ::after{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
+/* -------------------- */
+/* Base : Mobile First  */
+/* -------------------- */
 
 body {
-  width: 375px;
-  height: 812px;
-  background-color: hsl(212, 45%, 89%);
-  color: hsl(218, 44%, 22%);
-  padding:156.5px 27.5px ;
-  gap: 24px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    color: hsl(218, 44%, 22%);
+    gap: 24px;
 }
 
-main, .content {
-  position: absolute;
-  margin: 0 auto;
-  width: 320px;
-  height: 499px;
-  background-color: white;
-  border-radius: 20px;
+main,
+.content {
+    position: absolute;
+    margin: 0 auto;
+    width: 320px;
+    height: 499px;
+    background-color: white;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .image-qr-code img {
-  width: 288px;
-  height: 288px;
-  border-radius: 10px;
-  margin: 16px 16px;
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    margin: 16px 16px;
 }
 
 .content-text {
-  width: 288px;
-  height: 131px;
-  gap: 16px;
-  padding: 0 16px;
-  margin: 0 auto;
+    width: 288px;
+    height: 131px;
+    gap: 16px;
+    padding: 0 16px;
+    margin: 0 auto;
 }
 
 .first-text {
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  font-family: 'Outfit';
-  line-height: 120%; 
-  letter-spacing: 0px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Outfit";
+    line-height: 120%;
+    letter-spacing: 0px;
 }
 
 .second-text {
-  text-align: center;
-  font-size: 15px;
-  font-weight: 400;
-  font-family: 'Outfit';
-  line-height: 140%;
-  letter-spacing: 0.2px;
-  opacity: 100%;
-  color: #68778D;
-  margin: 16px 0px;
-}
-
-/* Attaque pour le desktop design  */
-@media (min-width: 768px) {
-
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Outfit";
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    opacity: 100%;
+    color: #68778d;
+    margin: 16px 0px;
 }
